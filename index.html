@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sishya School Assistant</title>
+  <meta name="description" content="Talk to the AI school assistant for Sishya OMR School, Chennai.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f7f3ea;
+      --ink: #1d2a3a;
+      --muted: #5b6676;
+      --accent: #1f4fbf;
+      --card: #ffffff;
+      --line: #e4dccb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f1520;
+        --ink: #eef2f7;
+        --muted: #9aa6b6;
+        --accent: #6f9bff;
+        --card: #172131;
+        --line: #263246;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, system-ui, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100dvh;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 32px 16px 120px;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .badge {
+      font-size: 13px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-family: Fraunces, Georgia, serif;
+      font-weight: 600;
+      font-size: clamp(32px, 7vw, 52px);
+      line-height: 1.1;
+      margin: 0 0 16px;
+    }
+    p { color: var(--muted); font-size: 17px; line-height: 1.6; margin: 0 0 24px; }
+    .steps {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 20px 24px;
+      text-align: left;
+      width: 100%;
+    }
+    .steps ol { margin: 0; padding-left: 20px; line-height: 1.9; }
+    .hint { font-size: 14px; margin-top: 24px; }
+    footer { text-align: center; font-size: 13px; color: var(--muted); padding: 16px; }
+    footer a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="badge">School Expo</div>
+    <h1>Hi! I'm the Sishya School Assistant</h1>
+    <p>Ask me anything about Sishya OMR School: classes, subjects, admissions, labs, sports, clubs and more.</p>
+    <div class="steps">
+      <ol>
+        <li>Tap the blue call button at the bottom right.</li>
+        <li>Allow microphone access when your browser asks.</li>
+        <li>Start talking. You can interrupt me any time.</li>
+      </ol>
+    </div>
+    <p class="hint">Works best in Chrome or Safari with headphones or in a quiet spot.</p>
+  </main>
+  <footer>
+    Information from <a href="https://sishyaomrschool.org/" target="_blank" rel="noopener">sishyaomrschool.org</a>. For official details, contact the school office.
+  </footer>
+
+  <!-- LIVEKIT_EMBED -->
+</body>
+</html>
