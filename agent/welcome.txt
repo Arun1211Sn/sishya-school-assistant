@@ -1,0 +1,1 @@
+Greet the user warmly in English and offer your assistance, then add one short, friendly line saying they can also talk to you in Tamil or Hindi, said in Tamil and then in Hindi.
